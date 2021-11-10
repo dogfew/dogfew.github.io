@@ -6,13 +6,16 @@ function generateRandom() {
 
 
 function calc() {
-  input = document.getElementById("field").value;
-  result = input.replaceAll("log", "Math.log")
+  let input = document.getElementById("field").value;
+  let result = eval(input.replaceAll("log", "Math.log")
       .replaceAll("pi", "Math.PI").replaceAll("e", "Math.E")
       .replaceAll("sin", "Math.sin").replaceAll("cos", "Math.cos")
-      .replaceAll("min", "Math.min").replaceAll("max", "Math.max");
+      .replaceAll("min", "Math.min").replaceAll("max", "Math.max"));
+  if (Math.abs(result) < 1e-12){
+    result=0;
+  }
   document.getElementById("res").innerHTML
-      += "&nbsp;&nbsp;&nbsp;&nbsp;" + input + "  --->  " + eval(result) + "<br>";
+      += "&nbsp;&nbsp;&nbsp;&nbsp;" + input + "  --->  " + result + "<br>";
   document.getElementById("field").value = '';
   document.getElementById("field").focus();
 }
