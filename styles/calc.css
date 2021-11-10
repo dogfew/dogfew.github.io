@@ -1,0 +1,79 @@
+.result {
+  display: flex;
+  border: 1px groove black;
+  transition: .2s linear;
+  border-radius: 5px;
+  text-align:center;
+  background-size: cover;
+  background-color: #f6f69e;
+  font-size: large;
+}
+
+h2 {
+  font-size: x-large;
+}
+.menu {
+  border: 1px groove black;
+  transition: .2s linear;
+  border-radius: 15px;
+  text-align: center;
+  background-color: aliceblue;
+  background-image: url("../images/gp8aVg8QWyI.jpg");
+  background-size: 40%;
+  background-position: 50% 20%;
+  font-size: medium;
+}
+
+
+
+input {
+  font-size: large;
+}
+.span-block {
+  text-align:center;
+}
+.span-block span {
+  display: inline-block;
+  margin: 15px;
+  padding: 20px 30px;
+  cursor: pointer;
+  cursor: pointer;
+  border-radius: 10px;
+  color: black;
+  transition: .2s linear;
+}
+.span-block span{
+  background: #d4f597;
+  width: 400px;
+}
+.span-block span:hover {
+  box-shadow: 0 0 0 3px white, 0 0 0 6px #d4f597;
+
+}
+
+
+
+
+
+
+
+.span-shadow {
+  text-align:center;
+}
+.span-shadow span {
+  display: inline-block;
+  margin: 15px;
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+  transition: .2s linear;
+}
+.span-shadow span{
+  background: #1f7c8c;
+  width: 200px;
+}
+.span-shadow span:hover {
+  box-shadow: 300px 0 0 0 rgba(0,0,0,.3) inset;
+
+}
