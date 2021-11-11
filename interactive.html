@@ -7,25 +7,22 @@
     <script src="scripts/script.js"></script>
 </head>
 <body>
-    <h2>Some interactive!</h2>
-    <div class="menu">
-    <p class="span-shadow">
+<h2>Some interactive!</h2>
+
+<div class="menu">
     <a href="index.html"><span>Main page</span></a>
     <a href="formulas.html"><span>LaTeX formulas</span></a>
     <a href="codes.html"><span>Codes</span></a>
     <a href="distros.html"><span>Linux Distros</span></a>
     <a href="beautiful.html"><span>Beautiful page</span></a>
     <a href="interactive.html"><span>Calculator</span></a>
-    </p>
-    </div>
-    <br>
-    <br>
+</div>
 
 <div class="span-block">
-<span onclick="generateRandom()" id="random">Generate random number</span>
-<span type="submit" onclick="clearField()">Clear it!</span>
-<span id="enter" type="submit" value="eval it!" onclick="calc()">Let's calc it!</span><br>
-<span><input id="field" type="text" onkeydown="if(event.key === 'Enter') calc()"><br>Enter your expression!</span>
+    <span onclick="generateRandom()" id="random">Generate random number</span>
+    <span type="submit" onclick="clearField()">Clear it!</span>
+    <span id="enter" type="submit" value="eval it!" onclick="calc()">Let's calc it!</span><br>
+    <span><input id="field" type="text" onkeydown="if(event.key === 'Enter') calc()"><br>Enter your expression!</span>
 </div>
     <div id="res" class="result"></div>
 </body>
