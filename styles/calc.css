@@ -1,12 +1,12 @@
 .result {
-  display: flex;
-  border: 1px groove black;
-  transition: .2s linear;
-  border-radius: 5px;
-  text-align:center;
-  background-size: cover;
-  background-color: #f6f69e;
-  font-size: large;
+    display: flex;
+    transition: .2s linear;
+    border-radius: 5px;
+    text-align:center;
+    background-size: cover;
+    background-color: #f6f69e;
+    font-size: large;
+    padding: .8571429em 1.1428571em;
 }
 
 h2 {
