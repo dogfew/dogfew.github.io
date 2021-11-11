@@ -8,7 +8,7 @@
 
 .center:hover{
   cursor: pointer;
-  transform: rotate(180deg);
+  transform: rotate(3deg);
 }
 
 
