@@ -12,6 +12,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .button {
   background-color: #4CAF50;
   border: none;
@@ -33,11 +34,12 @@
 }
 
 p {
-  display: flex;
+  display: block;
   border: 1px groove black;
   transition: .2s linear;
   text-align:center;
   background-size: cover;
   font-size: large;
-
+  margin-left: auto;
+  margin-right: auto;
 }
