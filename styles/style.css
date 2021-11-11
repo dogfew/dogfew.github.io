@@ -5,7 +5,7 @@
     text-align: center;
     background-color: aliceblue;
     background-image: url("../images/gp8aVg8QWyI.jpg");
-    background-size: 50%;
+    background-size: 40%;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -37,11 +37,13 @@
     margin-top: 1.7142857em;
     overflow-x: scroll;
     text-overflow: clip;
-    font-size: large;
     white-space: nowrap;
+    font-size: large;
 }
 
 .page-content {
     margin-top: 32px;
     margin-bottom: 32px;
 }
+
+
