@@ -1,0 +1,41 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.actions {
+  display: inline-block;
+  text-align: center;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: .2s linear;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.button:hover{
+  box-shadow: 0 0 0 3px white, 0 0 0 6px #4caf50;
+  cursor: pointer;
+}
+
+p {
+  display: flex;
+  border: 1px groove black;
+  transition: .2s linear;
+  text-align:center;
+  background-size: cover;
+  font-size: large;
+
+}
