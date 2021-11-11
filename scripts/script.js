@@ -10,7 +10,9 @@ function calc() {
   let result = eval(input.replaceAll("log", "Math.log")
       .replaceAll("pi", "Math.PI").replaceAll("e", "Math.E")
       .replaceAll("sin", "Math.sin").replaceAll("cos", "Math.cos")
-      .replaceAll("min", "Math.min").replaceAll("max", "Math.max"));
+      .replaceAll("min", "Math.min").replaceAll("max", "Math.max")
+      .replaceAll("abs", "Math.abs").replaceAll("round", "Math.round")
+      .replaceAll("sqrt", "Math.sqrt").replaceAll("random", "Math.random"));
   if (Math.abs(result) < 1e-12){
     result=0;
   }
