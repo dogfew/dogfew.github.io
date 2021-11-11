@@ -9,6 +9,8 @@
 .actions {
   display: block;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button {
   background-color: #4CAF50;
