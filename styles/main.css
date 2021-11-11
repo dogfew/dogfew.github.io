@@ -6,6 +6,12 @@
   border-radius: 20px;
 }
 
+.center:hover{
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+
 .actions {
   display: block;
   text-align: center;
