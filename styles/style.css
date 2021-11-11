@@ -1,3 +1,8 @@
+.page-content {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
 .menu {
     border: 1px groove black;
     transition: .2s linear;
@@ -38,9 +43,4 @@
     overflow-x: scroll;
     text-overflow: clip;
     white-space: nowrap;
-}
-
-.page-content {
-    margin-top: 32px;
-    margin-bottom: 32px;
 }
