@@ -2,13 +2,13 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  max-width: 90%;
   border-radius: 20px;
 }
 
 .center:hover{
   cursor: pointer;
-  transform: rotate(3deg);
+  transform: rotate(180deg);
 }
 
 
