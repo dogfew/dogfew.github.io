@@ -4,11 +4,13 @@
   margin-right: auto;
   max-width: 90%;
   border-radius: 20px;
+  transition: 1s linear;
 }
 
 .center:hover{
   cursor: pointer;
-  transform: rotate(180deg);
+  animation-delay: 3s;
+  transform: rotate(360deg) scale(0.6, 0.6);
 }
 
 

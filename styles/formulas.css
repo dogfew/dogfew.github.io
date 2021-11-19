@@ -4,9 +4,14 @@
     border-radius: 15px;
     padding: 7px 7px;
     color: white;
+    transition: .2s linear;
     text-align: center;
 }
 
+.formulas h4:hover {
+  box-shadow: 0 0 0 3px white, 0 0 0 6px #4caf50;
+  cursor: pointer;
+}
 
 .formulas p{
     font-size: 1.1em;

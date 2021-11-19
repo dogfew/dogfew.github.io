@@ -4,7 +4,6 @@ function generateRandom() {
 }
 
 
-
 function calc() {
   let input = document.getElementById("field").value;
   let result = eval(input.replaceAll("log", "Math.log")
