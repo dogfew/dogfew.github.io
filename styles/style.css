@@ -10,7 +10,7 @@
     padding-bottom: 12px;
 }
 
-.menu a {
+.nonCurrent {
     text-decoration: none;
     color: #fff;
     display: inline-block;
@@ -19,13 +19,28 @@
     padding: 20px 30px;
     margin: 15px;
     border-radius: 10px;
-    transition: .2s linear;
+    transition: .1s linear;
 }
 
-.menu a:hover {
+.nonCurrent:hover {
     box-shadow: 300px 0 0 0 rgba(0, 0, 0, .3) inset;
 }
 
+.current {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    min-width: 200px;
+    padding: 20px 30px;
+    margin: 15px;
+    border-radius: 10px;
+    transition: .1s linear;
+    background: #FF7A42;
+}
+
+.current:hover {
+    box-shadow: 300px 0 0 0 rgba(0, 0, 0, .3) inset;
+}
 .code {
     background: #f5f5f5;
     background-clip: border-box;

@@ -11,7 +11,8 @@ function calc() {
       .replaceAll("sin", "Math.sin").replaceAll("cos", "Math.cos")
       .replaceAll("min", "Math.min").replaceAll("max", "Math.max")
       .replaceAll("abs", "Math.abs").replaceAll("round", "Math.round")
-      .replaceAll("sqrt", "Math.sqrt").replaceAll("random", "Math.random"));
+      .replaceAll("sqrt", "Math.sqrt").replaceAll("random", "Math.random")
+      .replaceAll("^", "**").replaceAll("_", "").replaceAll("$", ""));
   if (Math.abs(result) < 1e-12){
     result=0;
   }

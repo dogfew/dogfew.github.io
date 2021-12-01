@@ -1,7 +1,7 @@
 let helloButton = document.getElementById("helloButton");
-let byeButton= document.getElementById("byeButton");
-let askButton= document.getElementById("askButton");
-let gayButton= document.getElementById("gayButton");
+let byeButton = document.getElementById("byeButton");
+let askButton = document.getElementById("askButton");
+let gayButton = document.getElementById("gayButton");
 let clearButton = document.getElementById("clearButton")
 helloButton.onclick = function() {
     let name = prompt('Tell me your name!');
