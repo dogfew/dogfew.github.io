@@ -3,9 +3,8 @@
     transition: .2s linear;
     border-radius: 15px;
     text-align: center;
-    background-color: aliceblue;
-    background-image: url("../images/gp8aVg8QWyI.jpg");
-    background-size: 40%;
+    background-image: url("../images/psychopass.jpg");
+    background-size: 100%;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -23,9 +22,23 @@
 }
 
 .nonCurrent:hover {
-    box-shadow: 300px 0 0 0 rgba(0, 0, 0, .3) inset;
+    box-shadow: 500px 0 0 0 rgba(0, 0, 0, .3) inset;
 }
 
+.exo {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background: #153e60;
+    min-width: 200px;
+    padding: 20px 30px;
+    margin: 15px;
+    border-radius: 10px;
+    transition: .1s linear;
+}
+.exo:hover {
+    box-shadow: 500px 0 0 0 rgba(0, 0, 0, .3) inset;
+}
 .current {
     text-decoration: none;
     color: #fff;
@@ -39,7 +52,7 @@
 }
 
 .current:hover {
-    box-shadow: 300px 0 0 0 rgba(0, 0, 0, .3) inset;
+    box-shadow: 500px 0 0 0 rgba(0, 0, 0, .3) inset;
 }
 .code {
     background: #f5f5f5;
@@ -59,6 +72,17 @@
     max-width: 80%;
     display: block;
 }
+h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ef6d6d;
+    background-clip: border-box;
+    border-radius: 5px;
+    padding: 7px 7px;
+    color: white;
+    max-width: 700px;
+}
 
 h3 {
     text-align: center;
@@ -77,4 +101,7 @@ h3 {
     margin-bottom: 32px;
 }
 
-
+a {
+    text-decoration: none;
+    color: black;
+}
